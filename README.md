@@ -81,7 +81,13 @@
     <div id="printable-ticket" class="hidden"></div>
 
     <script>
-        const firebaseConfig = { apiKey: "AIzaSyCEJJGhcyYWqmeI9D_lwk_qgE2J2GZhIlg", authDomain: "communautedugabon.firebaseapp.com", projectId: "communautedugabon", storageBucket: "communautedugabon.firebasestorage.app", messagingSenderId: "647862371022", appId: "1:647862371022:web:b209bfc8eb81accb1fc69f" };
+        const firebaseConfig = {
+        apiKey: "AIzaSyCEJJGhcyYWqmeI9D_lwk_qgE2J2GZhIlg",
+        authDomain: "communautedugabon.firebaseapp.com",
+        projectId: "communautedugabon",
+        storageBucket: "communautedugabon.firebasestorage.app",
+        messagingSenderId: "647862371022",
+        appId: "1:647862371022:web:b209bfc8eb81accb1fc69f" };
         firebase.initializeApp(firebaseConfig);
         const db = firebase.firestore();
         const auth = firebase.auth();
