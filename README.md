@@ -23,12 +23,12 @@
     <script>
         // CONFIGURATION FIREBASE - REMPLISSEZ CES CHAMPS AVEC VOS CLÉS
         const firebaseConfig = {
-            apiKey: "VOTRE_API_KEY",
-            authDomain: "VOTRE_PROJET.firebaseapp.com",
-            projectId: "VOTRE_PROJECT_ID",
-            storageBucket: "VOTRE_PROJET.appspot.com",
-            messagingSenderId: "VOTRE_ID",
-            appId: "VOTRE_APP_ID"
+            apiKey: "AIzaSyCEJJGhcyYWqmeI9D_lwk_qgE2J2GZhIlg",
+            authDomain: "communautedugabon.firebaseapp.com",
+            projectId: "communautedugabon",
+            storageBucket: "communautedugabon.firebasestorage.app",
+            messagingSenderId: "647862371022",
+            appId: "1:647862371022:web:b209bfc8eb81accb1fc69f"
         };
         
         firebase.initializeApp(firebaseConfig);
